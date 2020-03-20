@@ -1,8 +1,14 @@
-import React, { Component } from 'react'
-import HelloWorld from './components/HelloWorld'
+import React from 'react'
+import MovieSection from './components/MovieSection'
 
-const App = () => {
-  return <HelloWorld />
+class App extends React.Component {
+  render() {
+    return (
+      <>
+        <MovieSection />
+      </>
+    )
+  }
 }
 
 export default App
