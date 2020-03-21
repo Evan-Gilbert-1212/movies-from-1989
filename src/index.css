@@ -9,4 +9,72 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-image: url('./images/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.movie-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+article {
+  padding: 1rem;
+  height: auto;
+  width: 400px;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  margin: 1rem;
+  background-color: darkgoldenrod;
+}
+
+.div-line {
+  background-color: black;
+  height: 2px;
+}
+
+header {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: darkred;
+}
+
+h1 {
+  color: antiquewhite;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+img {
+  width: 185px;
+  height: 278px;
+}
+
+input {
+  height: 1rem;
+}
+
+.filter-box {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.sort-by {
+  height: 1.4rem;
+}
+
+p {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }

@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "movies-from-1989",
+  "name": "octocats-react",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -30,8 +30,11 @@
   },
   "dependencies": {
     "json": "^9.0.6",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
     "react-scripts": "^3.4.0"
+  },
+  "resolutions": {
+    "@babel/preset-env": "^7.8.7"
   }
 }
